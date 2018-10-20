@@ -1,0 +1,222 @@
+/**********************************************************************
+ * Global selector to update box model to border-box                  *
+ **********************************************************************/
+* {
+	box-sizing: border-box;
+}
+
+/**********************************************************************
+ * General typographic layour configs, set a new font family          *
+ **********************************************************************/
+body {
+	font-family: Verdana, sans-serif;
+	margin: 15px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 175%;
+	margin: 40px;
+}
+
+h2 {
+	font-size: 125%;
+}
+
+p {
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 65px;
+	font-size: 100%;
+	text-align: left;
+}
+
+/**********************************************************************
+ * Setup for the relative sections and absolute section title boxes   *
+ **********************************************************************/
+section {
+	background-color: #cccccc;
+	position: relative;
+	margin: 15px;
+}
+
+section, .section-title {
+	border:	1px black solid;
+/*	overflow: hidden; */
+}
+
+.section-title {
+	width: 200px;
+	height: 60px;
+	top: -1px;
+	right: -1px;
+	text-align: center;
+	position: absolute;
+}
+
+
+/**********************************************************************
+ * Colours for the specific sections                                  *
+ **********************************************************************/
+#section-1-title {
+	background-color: #d49797;
+}
+
+#section-2-title {
+	color: #ffffff;
+	background-color: #b13c3c;
+}
+
+#section-3-title {
+	background-color: #d0c080;
+}
+
+/**********************************************************************
+ * Row class for grid system                                          *
+ **********************************************************************/
+.row {
+	width: 100%;
+}
+
+/**********************************************************************
+ * Media query for phone or small width devices                       *
+ **********************************************************************/
+@media (max-width: 767px) {
+	.col-sml-1, .col-sml-2, .col-sml-3, .col-sml-4, .col-sml-5, .col-sml-6,
+	.col-sml-7, .col-sml-8, .col-sml-9, .col-sml-10, .col-sml-11, .col-sml-12 {
+		float: left;
+	}
+	.col-sml-1 {
+		width: 8.33%;
+	}
+	.col-sml-2 {
+		width: 16.66%;
+	}
+	.col-sml-3 {
+		width: 25%;
+	}
+	.col-sml-4 {
+		width: 33.33%;
+	}
+	.col-sml-5 {
+		width: 41.66%;
+	}
+	.col-sml-6 {
+		width: 50%;
+	}
+	.col-sml-7 {
+		width: 58.33%;
+	}
+	.col-sml-8 {
+		width: 66.66%;
+	}
+	.col-sml-9 {
+		width: 74.99%;
+	}
+	.col-sml-10 {
+		width: 83.33%;
+	}
+	.col-sml-11 {
+		width: 91.66%;
+	}
+	.col-sml-12 {
+		width: 100%;
+	}
+}
+
+/**********************************************************************
+ * Media query for tablet width devices                               *
+ **********************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-med-1, .col-med-2, .col-med-3, .col-med-4, .col-med-5, .col-med-6,
+	.col-med-7, .col-med-8, .col-med-9, .col-med-10, .col-med-11, .col-med-12 {
+		float: left;
+	}
+	.col-med-1 {
+		width: 8.33%;
+	}
+	.col-med-2 {
+		width: 16.66%;
+	}
+	.col-med-3 {
+		width: 25%;
+	}
+	.col-med-4 {
+		width: 33.33%;
+	}
+	.col-med-5 {
+		width: 41.66%;
+	}
+	.col-med-6 {
+		width: 50%;
+	}
+	.col-med-7 {
+		width: 58.33%;
+	}
+	.col-med-8 {
+		width: 66.66%;
+	}
+	.col-med-9 {
+		width: 74.99%;
+	}
+	.col-med-10 {
+		width: 83.33%;
+	}
+	.col-med-11 {
+		width: 91.66%;
+	}
+	.col-med-12 {
+		width: 100%;
+	}
+}
+
+
+/**********************************************************************
+ * Media query for large screen width devices                         *
+ **********************************************************************/
+@media (min-width: 992px) {
+	.col-lrg-1, .col-lrg-2, .col-lrg-3, .col-lrg-4, .col-lrg-5, .col-lrg-6,
+	.col-lrg-7, .col-lrg-8, .col-lrg-9, .col-lrg-10, .col-lrg-11, .col-lrg-12 {
+		float: left;
+	}
+	.col-lrg-1 {
+		width: 8.33%;
+	}
+	.col-lrg-2 {
+		width: 16.66%;
+	}
+	.col-lrg-3 {
+		width: 25%;
+	}
+	.col-lrg-4 {
+		width: 33.33%;
+	}
+	.col-lrg-5 {
+		width: 41.66%;
+	}
+	.col-lrg-6 {
+		width: 50%;
+	}
+	.col-lrg-7 {
+		width: 58.33%;
+	}
+	.col-lrg-8 {
+		width: 66.66%;
+	}
+	.col-lrg-9 {
+		width: 74.99%;
+	}
+	.col-lrg-10 {
+		width: 83.33%;
+	}
+	.col-lrg-11 {
+		width: 91.66%;
+	}
+	.col-lrg-12 {
+		width: 100%;
+	}
+}
+
+/**********************************************************************
+ * End of file. Thanks for reviewing! :-)                             *
+ **********************************************************************/
